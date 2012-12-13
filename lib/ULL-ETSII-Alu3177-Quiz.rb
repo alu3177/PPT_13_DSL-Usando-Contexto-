@@ -18,12 +18,12 @@ module ULL
             # Recibe el nombre del test y un bloque con las preguntas y sus respuestas
             #
             # Ejemplo de uso:
-            #   quiz = Quiz.new("Test 1"){ |e| 
-            #     e.question "Pregunta 1",
-            #       e.wrong => "Respuesta incorrecta 1",
-            #       e.wrong => "Respuesta incorrecta 2",
-            #       e.wrong => "Respuesta incorrecta 3",
-            #       e.wrong => "Respuesta correcta"
+            #   quiz = Quiz.new("Test 1"){
+            #     question "Pregunta 1",
+            #       wrong => "Respuesta incorrecta 1",
+            #       wrong => "Respuesta incorrecta 2",
+            #       wrong => "Respuesta incorrecta 3",
+            #       right => "Respuesta correcta"
             #   }
             def initialize(name, &block)
                 @counter = 0
