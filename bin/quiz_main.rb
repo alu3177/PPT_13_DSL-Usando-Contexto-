@@ -1,5 +1,5 @@
 #encoding: UTF-8
-require 'ULL-ETSII-Alu3177-Quiz'
+require "ULL-ETSII-Alu3177-Quiz"
 include ULL::ETSII::Alu3177::Quiz
 
 quiz = Quiz.new("Lenguajes y Paradigmas de Programación: Temas 1 y 2") {
