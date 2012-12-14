@@ -50,4 +50,4 @@ quiz = Quiz.new("Lenguajes y Paradigmas de Programación: Temas 1 y 2") {
         wrong => "Variable de instancia"
 }
 
-quiz.to_html
+quiz.run
