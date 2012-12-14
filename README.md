@@ -1,7 +1,7 @@
 # ULL::ETSII::Alu3177::Quiz
 
 # Práctica 13: DSL: Redacción de Cuestionarios II (Usando Contexto)
-# `W.I.P: Work In Progress`
+# `Práctica finalizada`
 ## Enunciado
 Se trata de escribir un programa que redacte cuestionarios. En principio, sólo soportaremos preguntas del tipo selección múltiple:
 
