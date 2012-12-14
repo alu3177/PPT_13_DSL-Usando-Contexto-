@@ -1,6 +1,6 @@
 #encoding: UTF-8
 require "ULL-ETSII-Alu3177-Quiz/version"
-require "ULL-ETSII-Alu3177-Quiz/Quiz"
+require "ULL-ETSII-Alu3177-Quiz/quiz"
 
 module ULL
   module ETSII
